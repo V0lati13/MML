@@ -1,0 +1,17 @@
+SCC = This is a Source Code Control file
+
+[MMLOGIC.DSP]
+SCC_Aux_Path = "\\desktop\vss\"
+SCC_Project_Name = "$/logic/VC6", YCCAAAAA
+
+[MMLOGIC.DSW]
+SCC_Aux_Path = "\\desktop\vss\"
+SCC_Project_Name = "$/logic/VC6", YCCAAAAA
+
+[Mmlogic.sln]
+SCC_Aux_Path = "\\desktop\vss\"
+SCC_Project_Name = "$/logic/VC6", YCCAAAAA
+
+[Mmlogic.vcproj]
+SCC_Aux_Path = "\\desktop\vss\"
+SCC_Project_Name = "$/logic/VC6", YCCAAAAA

@@ -1,0 +1,214 @@
+   o Display device now supports <Back Space> and a cursor.
+   o Display device now includes a reset line.
+   o The robot "hotspot" now rotates according to the current
+     direction.
+   o The robot "initial position" is based on the hotspot.
+     That is, the "hotspot" will be placed at the "initial position".
+   o The robot now supports a "reserved" transparent color.
+   o The "select area" around the signal sender/receiver has been
+     reduced to allow them to be placed closer together.
+   o Bug fixed, Select All selected all devices on all pages.
+     It now selects everything on the current page.
+   o Major performance improvements. The improvement depends
+     on the size, and how much animation is on the page in view.
+     In some cases it runs so fast that sound devices do not
+     operate correctly. You may wish to drive the circuit with a
+     real time timer to make your circuit run slower to see
+     animated outputs.
+   o Simulator has been upgraded from a 3 state simulator to a
+     6 state simulator. What does that mean, it means that you
+	 can now have Multiple Tristate Devices on a Bus. You don't
+	 have understand all this to use the simulator, it is here
+	 for more advanced users. The 6 states are:
+
+     - Driving 1 (1)
+	 - Driving 0 (0)
+	 - Driving Unknown (U)
+	 - Pulling up to 1 (+)
+     - Pulling down to 0 (-)
+	 - Not Driven or Floating (?)
+
+     See the Tristate Devices and the Bus for more information.
+   o The Node device has been modified and enhanced for handling
+     the 6 states. The terminology used in previous versions was
+	 incorrect. The "Pull up" behavior of previous versions is
+	 now correctly called "Force 1". The new behavior of "Pull up"
+	 is a true "Pull up" for a "Tristate" bus.
+   o Examples have now been catagorized and summarized.
+     See help menu.
+   o The scrollbars no longer obscure part of the schematic.
+   o When trial mode license expires a "read only" license is
+     enabled indefinitely.
+   o All examples fixed that used relative paths to their resources.
+     (i.e. Robot example should now work).
+   o Grid is now a true user customizable grid. Snapping to the
+     grid is initiated by the user and is not an automatic snap.
+   o Printing problems fixed for some printers that did not print
+     wires correctly.
+   o Bug fixed that caused simulator to lock when a Signal Receiver
+     with "Unknown" state drove a PullDown or PullUp node.
+   o "Seeing" Robot has been modified to allow 16 images independent
+     of direction. An "Off" playground Output has also been added.
+   o A "Drawing" Robot has been added. You can "Piggy Back" multiple
+     robots of the same or different types to increase their
+     capabilities. That is, a multi function robot can have 4 eyes
+     and 4 pens.
+   o PaletteBar is now aware of Win95 TaskBar when it's always on
+     Top.
+   o When simulate is stopped it no longer forgets that you may of
+     had the PaletteBar up and is now restored.
+   o Grid is now disabled during simulate for performance reasons.
+   o Uninstall is now available.
+
+Version 0.6
+
+   o Bug fixed, which cause The bitmap device to have each bitmap file
+     open while in use. This was not necessary and the system could
+     easily exceed the open file limit. This caused the "Bandit" example
+     to fail on some systems.
+   o Bug fixed, which caused circuits with two or more non driving
+     node devices with different driven values to to hang the simulation.
+   o New Devices:
+	- Robot that can see Color.
+        - 16 position rotoray select switch.
+   o Enhanced Devices:
+	- Bitmap device now allows a static bitmap (shows even when
+	  simulatiom is idle, for purposes of documenation).
+	- Text device now allows a dynamic text based on simulation
+	  inputs (like the original Bitmap device but text instead).
+        - SoundWave device can now play without waiting for sound
+	  to complete. It no longer slows the simulation down.
+	  This is an option on the device since there instances
+	  where you may wish to wait.
+        - 7 Segment LED is now a 8 Segment LED.
+   o All files referenced by devices (Memory,Text,Sound,Bitmap)
+     can now have their respective editors lauched from within
+     the simulator. No need to jump outside of simulator and run
+     Paint for example.
+   o All files referenced by devices (Memory,Text,Sound,Bitmap)
+     are properly referenced relative to the location in which the
+     project file is located. No more "can't find file".
+   o Printing is now EXACTLY what you get on the screen namely the
+     Text devices.
+   o Major improvements to animation performance.
+
+Version 0.5
+
+   o As planned, MMLogic now supports networking. This opens up
+     possibilities beyond your wildest dreams. Network a whole
+     classroom togther or build a game and run it over the internet.
+     It's a piece of cake to use it.
+   o All new "standard" FlipFlips (RS, DLATCH, MasterSlave, JK, Level
+     and Edge triggered). In previous versions what existed was
+     just a level sensitive DLATCH.
+   o All new "standard" Muxes (Encoders) 8:1, 4:1, 2:1 and Demuxes
+     (Decoders) 3:8, 2:4, 1:2. In previous versions what existed
+     was actually 4 parallel 2:1 Muxes and 4 pararllel 1:2 to Demuxes.
+   o More consistent processing of the "unknown" state. There are
+     conditions such as uninitialize outputs of a flipflop which
+     generate "unknown" state. This is a 3 state simulator (0, 1 or
+     unknown). Unknown means the simulator does not have the information
+     to choose 0 or 1. AND, OR, XOR, INVERT, FlipFlips, Muxes and Demuxes
+     will now properly process unknown inputs. The LED shows lines
+     through it, if it is not being driven with a 0 or 1.
+     The probe will show a "?" on a node that is in the unknown
+     state.
+   o Unconnected Inputs and Outputs are now allowed. The BitBucked
+     kicked the bucket. Unconnected inputs will always be Unknown.
+   o Improved wiring by use of the new Node device.
+   o The new Node device also allows you to add a default of 1 (Pull up)
+     or a default of 0 (Pull down) in the event it holds and Unknown
+     state. This helps initialize some circuits.
+   o Changed the Enable on the Display device to be an "edge" sensitive
+     clock instead of level sensitive enable. This means it looks for a
+     transition from 0 to 1 before it accepts a character. Before it
+     would accept a character when ever it was a 1. The former proved
+     awkward in some situations.
+   o Bug fixed, which allowed "resize" of wire.
+   o The Port In and Port Out device has been modified to run off
+     an "edge" sensitive clock. The lack of a clock did not give
+     enough control.
+   o Bug fixed, which caused the initial bitmap in the Bitmap device
+     to be sized wrong.
+   o Bug fixed, which caused "group selection clone" to fail to clone
+     wires correctly.
+   o Bug fixed, which caused cloning to drag away the original instead
+     of the clone.
+   o Bug fixed, which caused cloning to not copy attributes of the
+     original.
+   o Bug fixed, which caused wire drawing to get stuck in autoscroll
+     when input already connected.
+   o Bug fixed, which caused wire mode to slip back to pointer mode
+     when some errors occured.
+
+Version 0.4
+
+   o Multiple page projects are now finally supported.
+   o Keyboard device now supports both "ASCII" mode and virtual
+     key code mode. Version 0.2 was Virtual, Version 0.3 was
+     ASCII, this version is both.
+   o New devices added:
+     - Real time Clock, you now have access to operating systems
+       clock (seconds, minutes, hours, days of month, months and
+       years).
+     - Real time countdown timer, you can now fire events based
+       "Wall Clock" time, independent of simulation performance.
+     - Signal Sender/Receiver, Now you can send signals around
+       without wires or to other pages.
+   o Lots of KeyBoard Accelerator cleanup done in Main Window,
+     Dialogs and Menus.
+   o PaletteBar cleaned up. All docking is removed for now.
+     Cleaned up bugs in remembering position. Visibility state is
+     now remembered from session to session.
+   o StatusBar and ToolBar visibility now remembered from session
+     to session.
+   o Lots of online help cleanup.
+   o Added several examples referenced in online help that was
+     missing.
+   o Many bugs fixed around having multiple projects open at once.
+   o Many bugs fixed in printing.
+   o Added Tool Tips.
+   o Added Help Messages in Status Bar all buttons.
+   o Paper Color and Grid State is now kept in project.
+   o Added Tip of the Day (it's database is not very full yet).
+   o Fixed problem with some devices getting lost off page. They
+     will be forced into full view when you save your project.
+
+Version 0.3
+
+   o Changed labeling on many devices for consistency and clarity.
+   o BitBucket now has multiple inputs and does not require them
+     to be all connected.
+   o Random device now allows the seed to be set.
+   o Random device now operates much like the counter device.
+     It is now clock driven and can be reset.
+   o XOR Device added.
+   o Help File reworked.
+   o File in and File Out devices have been overhauled.
+   o Switch, Keypad, and Keyboard events are now automatically
+     synchronized with the simulator (one event per cycle).
+     Previously you could type or click faster than the simulator
+     consumed. You can also "queue up" multiple events while
+     paused. A similar Queue will be added to the Port I/O
+     devices in the future. This would allow an external device
+     to run at real time speeds.
+   o You can now Copy, Cut and Paste ALL devices including Wires.
+   o Some devices have changed so using old projects might cause
+     some problems:
+     - This may generate connection errors, so you'll just have to
+	   rewire these.
+     - Some devices might look clipped, just delete them and add them
+	   again.
+   o Several new examples and many have been updated to reflect
+     changes.
+
+Version 0.2
+
+   o Pause device is now green and changes to red when triggered
+     to identify itself.
+   o Win32s Kits now available.
+   o Probe can now be enabled when paused.
+   o Display Device no longer has White Blocks around letters.
+   o Allow Multiple Bitmap devices access to the same bitmap.
+
+Version 0.1

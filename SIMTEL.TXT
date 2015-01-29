@@ -1,0 +1,30 @@
+I have uploaded:
+
+/pub/simtelnet/win95/edu/
+mmlogi10.zip    MMLogic v1.0: MultiMedia Logic Simulator
+
+MultiMedia Logic is a combined logic design schematic entry
+system and logic simulator.  It includes the standard
+complement of devices such as AND, OR, NAND, NOR, Adders and
+Counters etc.  But MMLogic goes one step beyond these devices
+by including MultiMedia devices such as a "Wave" device,
+a "Bitmap" device, a "Robot" device, a "Buzzer" device and
+more.  This allows you to interact with your logic simulation.
+Your "circuits" can span the classroom or the Internet by
+using the "Network" device.  The simulator is a 6 state
+(True, False, Unknown, PullDown, PullUp and Float) event
+driven simulator.  Schematics can be printed in full color.
+You can think of MultiMedia Logic as "Visual Programming"
+where the language is "Logic" and the data type is a bit.
+Ages 8 and up, you can start very simple (switches and LEDs)
+to very complex (build games that run over the Internet).
+
+Special requirements: Win3x users must have 1.3c Win32s
+
+Changes: Initial Release
+
+Shareware, Uploaded by the author.
+
+George Mills, Softronics, Inc.
+mills@softronix.com
+http://www.softronix.com

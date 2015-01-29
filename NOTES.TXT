@@ -1,0 +1,80 @@
+Running the simulator without save should give warning.
+Easier Network messages.
+Fixed Hang with unconnected Node Pulled and unconnected Bus causing inf loop.
+Fixed Fonts on Zoom.
+Fixed Reload of font in Display.
+Network error caused simulator to think it's stopped but not allow exit.
+Zoom.
+Move all GateID = x to SetContacts
+Move all Outputs = x to SetContacts
+Counter 8 bit.
+Counter Down Count.
+Counter Initial value.
+Redo Online help for COunter.
+Backward compatability on Counter.
+8 bit Register.
+Set/Preset Flip Flop.
+Turing Tape Head.
+
+HIGH Logic Analyzer.
+HIGH Undo, Do it.
+HIGH Help, More How to.
+HIGH Help, Problems/Projects.
+HIGH Destroywindow in socketwnd might be causing the restart of socket problem try detach.
+
+MED  Add MIDI device.
+MED  Add Custom KEYPAD bitmaps device.
+MED  Add decimal input device and decimal output device.
+MED  Add a selectable Text input device (listbox).
+MED  Reset on Robots (goes to initial position, could reset playground).
+MED  Reset on Playgroud.
+MED  Grid should be in registry.
+MED  Grid needs to be split from trim.
+MED  When not in wire mode treat nodes same as device select (node device).
+     or Make selecting node easier (Not possible to select wire, then).
+ 
+LOW  Switch Wave over to PlayWave, why?
+LOW  Allow no wait on sound devices (Wave Done, Beeper?).
+LOW  Switch, Remove Momentary always on
+LOW  Wires, Push to rear (tried didn't look good)
+LOW  Wires, Allow invisable
+LOW  Sound, Make like bitmap
+
+V1.2 Right mouse actions.
+V1.2 Switch to non positional wire routing.
+V1.2 To do multiple simulations have global simulator process a list of documents to be simulated.
+V1.2 Add "Set as Default" to dialogs
+V1.2 Add Group wide property changes.
+V1.2 Add "OpenComm" Device to IO?
+V1.2 Add Truth Table device with bitmap
+V1.2 Add Help device
+V1.2 Add Graph Device
+V1.2 Add real interrupt device (WinStar)
+V1.2 Add shifter.
+V1.2 Add multi bit latch.
+V1.2 Add Mouse Device, can be another robot !!!
+V1.2 Allow multiple fonts (or at least 2).
+
+1.0 Things done
+
+Done HIGH Initial position should be based on the hotspot not the upperleft.
+Done HIGH Rotate hotspot based on heading.
+Done HIGH Reduce Signal sender/reciever bitmap size.
+Done HIGH Shut off resize handles.
+Done HIGH Robot bitmap pencil, eye glasses.
+Done HIGH Fix edit.. in dialogs with bad file name.
+Done HIGH A select that includes a wire without both devices and autoscrolls
+          causes error during autoscroll which causes a crash (on save?)
+Done HIGH Need to double check some devices (FF/MUX) to see if they call base class simulate too often.
+          (seems ok).
+Done HIGH Dialog for each device even if no props.
+Done HIGH Autoscroll, Fix left over garbage
+Done HIGH Wires, Autoscroll broken
+Done HIGH Finish ALU.
+
+Done MED  General, Cleanup Unknown on some devices like display and memory.
+Done MED  Display, Cursor.
+Done MED  Display, Delete key.
+Done MED  Printing, Fix font on display and signal devices
+
+1.1 Things done

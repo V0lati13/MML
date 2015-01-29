@@ -1,0 +1,368 @@
+﻿Build started 1/28/2015 6:08:51 PM.
+     1>Project "C:\Users\Greg\Google Drive\Working_VS2013_-_MMLogic-2015-01-28\Working VS2013 - MMLogic\Mmlogic.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/Mmlogic.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug/" /Gd /TP /analyze- /errorReport:prompt STDAFX.CPP
+         STDAFX.CPP
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/Mmlogic.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug/" /Gd /TP /analyze- /errorReport:prompt Analyze.cpp Autoscrl.cpp Cdib.cpp DIALOG.CPP ENGINE.CPP logibmp.cpp LOGICLI.CPP LOGIDOC.CPP LOGIOBJ.CPP logitext.CPP LOGITOOL.CPP LOGIVW.CPP LOGIWIRE.CPP MAINFRM.CPP network.cpp palette.CPP robot.CPP socket.cpp SPLITFRM.CPP TipDlg.cpp toolbar.cpp Undo.cpp
+         Analyze.cpp
+         Autoscrl.cpp
+         Cdib.cpp
+         DIALOG.CPP
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\dialog.cpp(1244): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\dialog.cpp(3709): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\dialog.cpp(3733): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         ENGINE.CPP
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\engine.cpp(148): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(854) : see declaration of '_splitpath'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\engine.cpp(149): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(854) : see declaration of '_splitpath'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\engine.cpp(165): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\engine.cpp(169): warning C4996: '_makepath': This function or variable may be unsafe. Consider using _makepath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(799) : see declaration of '_makepath'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\engine.cpp(181): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\engine.cpp(182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\engine.cpp(245): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+         logibmp.cpp
+         LOGICLI.CPP
+         LOGIDOC.CPP
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1256): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1261): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1267): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1291): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1323): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1337): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1363): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1377): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1390): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1393): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1405): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1408): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1420): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1423): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1436): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1449): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1462): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1475): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1488): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1501): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1514): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1527): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1552): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1564): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1577): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1590): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1604): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1618): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1632): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1646): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1660): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1673): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1686): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1699): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1712): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1725): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1738): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1753): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1772): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1778): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1781): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1784): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1789): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1792): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1799): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1801): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1805): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1807): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1809): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1811): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1813): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1815): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1817): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1861): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1866): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1872): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1878): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1884): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1890): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1896): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1902): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1909): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1916): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1923): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1929): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1935): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1941): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1948): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1955): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1961): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1967): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1973): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1979): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1988): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(1995): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2001): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2007): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2013): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2019): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2025): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2031): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2037): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2043): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2049): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2055): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2061): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2067): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2073): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2079): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2085): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2091): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2097): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2103): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2109): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2115): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2121): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2127): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2133): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2139): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2145): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2151): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2161): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2168): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2180): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2199): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2201): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2203): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2205): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2207): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2209): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2211): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logidoc.cpp(2213): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         LOGIOBJ.CPP
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(3119): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(4004): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(4985): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(4987): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(5009): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(5325): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(5602): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(5845): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(6170): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(8463): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(8465): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(8490): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(8924): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(8926): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\logiobj.cpp(8945): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         logitext.CPP
+         LOGITOOL.CPP
+         LOGIVW.CPP
+         LOGIWIRE.CPP
+         MAINFRM.CPP
+         network.cpp
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\network.cpp(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         palette.CPP
+         robot.CPP
+         socket.cpp
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\socket.cpp(16): warning C4005: 'SD_BOTH' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(905) : see previous definition of 'SD_BOTH'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\socket.cpp(111): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         SPLITFRM.CPP
+         TipDlg.cpp
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\tipdlg.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\tipdlg.cpp(42): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\greg\google drive\working_vs2013_-_mmlogic-2015-01-28\working vs2013 - mmlogic\tipdlg.cpp(56): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(86) : see declaration of 'ctime'
+         Generating Code...
+         Compiling...
+         toolbar.cpp
+         Undo.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\LOGICLI.res" LOGICLI.RC 
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(32): warning RC4005: 'IDR_MANIFEST' : redefinition
+         
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /nologo /fo".\Debug\Logicl32.exe.embed.manifest.res" .\Debug\Logicl32_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\Greg\Google Drive\Working_VS2013_-_MMLogic-2015-01-28\Working VS2013 - MMLogic\.\Debug\Logicl32.exe) does not match the Linker's OutputFile property value (C:\Users\Greg\Google Drive\Working_VS2013_-_MMLogic-2015-01-28\Working VS2013 - MMLogic\Debug\Mmlogic.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(Logicl32) does not match the Linker's OutputFile property value (Mmlogic). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/Mmlogic.exe" /INCREMENTAL /NOLOGO WinMM.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:DeclareDPIAware.manifest /manifestinput:DeclareDPIAware.manifest /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug/Mmlogic.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Logicl32.lib" /MACHINE:X86 /SAFESEH .\Debug\LOGICLI.res
+         .\Debug/Analyze.obj
+         .\Debug/Autoscrl.obj
+         .\Debug/Cdib.obj
+         .\Debug/DIALOG.obj
+         .\Debug/ENGINE.obj
+         .\Debug/logibmp.obj
+         .\Debug/LOGICLI.obj
+         .\Debug/LOGIDOC.obj
+         .\Debug/LOGIOBJ.obj
+         .\Debug/logitext.obj
+         .\Debug/LOGITOOL.obj
+         .\Debug/LOGIVW.obj
+         .\Debug/LOGIWIRE.obj
+         .\Debug/MAINFRM.obj
+         .\Debug/network.obj
+         .\Debug/palette.obj
+         .\Debug/robot.obj
+         .\Debug/socket.obj
+         .\Debug/SPLITFRM.obj
+         .\Debug/STDAFX.obj
+         .\Debug/TipDlg.obj
+         .\Debug/toolbar.obj
+         .\Debug/Undo.obj
+     1>Analyze.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Mmlogic.vcxproj -> C:\Users\Greg\Google Drive\Working_VS2013_-_MMLogic-2015-01-28\Working VS2013 - MMLogic\.\Debug\Logicl32.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\Logicl32.bsc" .\Debug/Analyze.sbr .\Debug/Autoscrl.sbr .\Debug/Cdib.sbr .\Debug/DIALOG.sbr .\Debug/ENGINE.sbr .\Debug/logibmp.sbr .\Debug/LOGICLI.sbr .\Debug/LOGIDOC.sbr .\Debug/LOGIOBJ.sbr .\Debug/logitext.sbr .\Debug/LOGITOOL.sbr .\Debug/LOGIVW.sbr .\Debug/LOGIWIRE.sbr .\Debug/MAINFRM.sbr .\Debug/network.sbr .\Debug/palette.sbr .\Debug/robot.sbr .\Debug/socket.sbr .\Debug/SPLITFRM.sbr .\Debug/STDAFX.sbr .\Debug/TipDlg.sbr .\Debug/toolbar.sbr .\Debug/Undo.sbr
+     1>Done Building Project "C:\Users\Greg\Google Drive\Working_VS2013_-_MMLogic-2015-01-28\Working VS2013 - MMLogic\Mmlogic.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.14

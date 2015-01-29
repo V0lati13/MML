@@ -1,0 +1,47 @@
+[Data]
+CurrentMedia=Default
+CurrentComponentDef=Default.cdf
+CurrentFileGroupDef=Default.fdf
+CurrentLanguage=English
+CurrentPlatform=
+InstallRoot=C:\logic\VC6\Setup\MMLogic
+CompanyName=Softronics
+HomeURL=
+EmailAddresss=
+Copyright=
+SummaryText=
+Author=
+Department=
+ProductName=Mulimedia Logic
+Version=1.03.000
+InstallationGUID=1f9a5cfa-bf15-46e7-a723-a654ea29d6f7
+AppExe=MMLogic.exe
+Description=Description.txt
+Notes=Notes.txt
+Instructions=Instructions.txt
+set_level=Level 3
+set_warnaserr=No
+set_maxwarn=50
+set_maxerr=50
+set_preproc=
+set_compileb4build=Yes
+set_args=
+set_mif=No
+set_miffile=Status.mif
+set_mifserial=
+set_libraries=isrt.obl ifx.obl
+set_linkpath=
+
+[OperatingSystem]
+OSSupport=00000000001100d0
+
+[Language]
+LanguageSupport0=0009
+
+[General]
+Type=INSTALLMAIN
+Version=2.20.000
+
+[MediaInfo]
+mediadata0=Default/Media\Default
+
