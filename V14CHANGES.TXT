@@ -1,0 +1,80 @@
+This file thoroughly lists the changes made from version 1.3 to 1.4.
+
+- 64KB mode for Memory device (16-bit address)
+- Reset/Clear lines option for Flipflop devices
+- Fix emulation of Flipflop LO-LO (hold) state
+- Save spaces in filename strings in devices properly
+  (previously truncated at first whitespace)
+- Prevent zoom in / zoom out too far (crash)
+- Problems with NULL FILE* pointers in devices (crash)
+- Memory device was leaking FILE* handles
+- Problems with Halt() during Initialize()
+- Other Reset() problems related to failure cases
+- Make AnodeNULL variable document-specific instead of a global
+  variable. Avoids problems when a simulator is active
+  (including paused) and the unconnected node type
+  is changed for another document.
+- Nicer icon for document (instead of white rectangle)
+- Edit/Find should not make a selection if sim running,
+  but should go to the correct page
+- Add missing Invalidate() call to BreakGate Simulate()
+  when image is supposed to change
+- BreakGate now displays gate's page upon break, if necessary,
+  so user can see which BreakGate was hit
+- Calls to btn.Autoload() in dialog.cpp were generating
+  a debug warning. This is because the correct call
+  should be btn.SubclassDlgItem(). Fixed.
+- In some places (especially Reset()), objects from the m_objects list
+  are blindly cast to CLogiGate*, but wires do not descend from CLogiGate*.
+  Fixed to use the CLogiObj* base class where appropriate.
+- The Cut operation is now identified with the string "Cut" to
+  the undo system. (Previously showed up as "Delete".)
+- Disable View, Grid Settings when running/paused
+- Replace "MS Sans Serif" with "MS Shell Dlg", which is
+  the proper font to use in recent MFC. (in logicli.rc)
+- Rebuilt RTF and HLP files which were missing
+  (I have not revised the text, however)
+- Added some Tips of the Day regarding new features
+- Now compiles with no warnings
+
+- Nodes queued for update if their state changes, instead of processing
+  every node every cycle. Hugh performance increase if there are many
+  nodes in the project.
+- Similar change to PostSimulate handling.
+- Reimplemented undo/redo. Transactions supported. Move and property edits now undoable.
+- Copy/paste was pasting bad wires in some cases, when selection did not include both endpoint devices.
+- Configurable canvas size in Simulate, Setup dialog
+- Configurable simulation rate in Hz via Simulate, Setup dialog
+- Goto Page dialog with support for giving each page a name.
+- Add canvassize, simrate, and pagename tokens to file format to implement
+  saving of these new document properties. The changes are backward compatible.
+  That is, the previous release will open the files created by this release but
+  ignore the new features.
+- Windows XP theme support when running on Windows XP
+  In particular, addition of manifest.xml resource
+- Snap to Grid while moving mode now supported.
+- A Signal Sender device may now have multiple Signal Receivers.
+- Workaround for DP/LP rounding errors that caused bad repaints in zoom mode.
+- Similar DP/LP fixes to drawing of the selection rectangle.
+- Fixed bug in wire numbering on 3-input mux/demux device images.
+- Fixed state change bug in bus device that manifested following the addition of the node queue
+- Fixed propagation of bus float though Signal sender/receiver
+- Disallow Undo, Redo, Paste, Select All, Snap Selection to Grid when simulator running
+- Simulator will display a message if attempting to run a project with Port IO
+  devices on a WinNT system.
+- Fixed popup menu to enable/disable items as appropriate
+- Implemented OnSetCursor for tools, so cursor is properly updated while moving
+  across views in the splitter frame
+- Find/Replace text in selected items, or entire project if nothing selected
+- Fixed detected memory leaks. Most were in document destructor and the undo system.
+- Changed wire tool to display a "no" icon when trying to draw an illegal wire
+- Minor fixes to menu items, especially duplicate mnemonics and status bar text
+- If document window closed while Paused, the Palette is redisplayed if desired
+- Cleaned up the VERSIONINFORMATION resource, as WinXP Explorer displays this info
+  in the "tiled" file view
+- Changes to Tip of Day needed for paint to be compatible with Windows XP support
+- Used an automated utility to renumber resources, to correct duplicate resource numbers
+- Put Zoom In / Zoom Out buttons on toolbar
+- When zoomed out far, fill entire rectange with gray instead of drawing oversampled grid dots,
+  which was very slow
+- Bumped version number to 1.4

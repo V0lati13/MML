@@ -1,0 +1,37 @@
+Subject: MMLOGI10, Multimedia Logic 1.0 
+Date: 01/05/96
+Uploaded By: Softtronic
+
+File:MMLOGI10.ZIP (1047072) bytes
+Estimated Download Time (28800 baud): < 9 minutes
+Download Count: 49
+Author: George Mills
+
+Equipment: 386 CPU, 4meg Memory, 4meg Disk (Min)
+Needs: Windows 95/NT/Win32s, An Unzip utility
+Keywords: Softronics, Logic, Boolean Algebra, Educational, MultiMedia
+
+Catagory: Educational
+
+MultiMedia Logic is a combined logic design schematic entry
+system and logic simulator.  It includes the standard
+complement of devices such as AND, OR, NAND, NOR, Adders and
+Counters etc.  But MMLogic goes one step beyond these devices
+by including MultiMedia devices such as a "Wave" device,
+a "Bitmap" device, a "Robot" device, a "Buzzer" device and
+more.  This allows you to interact with your logic simulation.
+Your "circuits" can span the classroom or the Internet by
+using the "Network" device.  The simulator is a 6 state
+(True, False, Unknown, PullDown, PullUp and Float) event
+driven simulator.  Schematics can be printed in full color.
+You can think of MultiMedia Logic as "Visual Programming"
+where the language is "Logic" and the data type is a bit.
+Ages 8 and up, you can start very simple (switches and LEDs)
+to very complex (build games that run over the Internet).
+
+You may also wish to visit http://www.softronix.com for
+more information.
+
+License: Shareware
+Documentation: Online Help, Release notes in README.TXT
+To Install: Run SETUP.EXE from Windows

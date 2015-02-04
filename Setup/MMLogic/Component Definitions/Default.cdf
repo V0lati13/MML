@@ -1,0 +1,188 @@
+[Info]
+Name=
+Type=CompDef
+Version=2.10.000
+
+[Text Files]
+OBJECT=No
+DESCRIPTION=
+STATUS=
+VISIBLE=Yes
+DISK=ANYDISK
+FILENEED=STANDARD
+INCLUDEINBUILD=Yes
+PASSWORD=
+ENCRYPT=No
+COMPRESSIFSEPARATE=No
+UNINSTALLABLE=Yes
+COMMENT=
+DEFSELECTION=Yes
+SELECTED=Yes
+IMAGE=
+TARGETDIRCDROM=
+DISPLAYTEXT=
+HTTPLOCATION=
+FTPLOCATION=
+MISC=
+GUID=46d9d240-0740-4b39-a6bf-a6cea784d9e9
+_SPLIT_BEFORE=
+_SPLIT_AFTER=
+_DATAASFILES=
+_NO_SPLIT=
+_NO_SPLIT_BEFORE=
+VOLATILE=
+filegroup0=Text License
+filegroup1=Text Release Notes
+filegroup2=Text Tips
+HANDLERONInstalling=
+HANDLERONInstalled=
+HANDLERONUnInstalling=
+HANDLERONUnInstalled=
+
+[Components]
+component0=Text Files
+component1=Help Files
+component2=Program Files
+component3=Example Files
+
+[Help Files]
+OBJECT=No
+DESCRIPTION=
+STATUS=
+VISIBLE=No
+DISK=ANYDISK
+FILENEED=STANDARD
+INCLUDEINBUILD=Yes
+PASSWORD=
+ENCRYPT=No
+COMPRESSIFSEPARATE=No
+UNINSTALLABLE=Yes
+COMMENT=
+DEFSELECTION=Yes
+SELECTED=Yes
+IMAGE=
+TARGETDIRCDROM=
+DISPLAYTEXT=
+HTTPLOCATION=
+FTPLOCATION=
+MISC=
+GUID=d9b5708c-4fe0-4524-92ef-d3d41306b1be
+_SPLIT_BEFORE=
+_SPLIT_AFTER=
+_DATAASFILES=
+_NO_SPLIT=
+_NO_SPLIT_BEFORE=
+VOLATILE=
+filegroup0=Help MMLogic
+filegroup1=Help MMLogic Contents
+HANDLERONInstalling=
+HANDLERONInstalled=
+HANDLERONUnInstalling=
+HANDLERONUnInstalled=
+
+[Program Files]
+OBJECT=No
+DESCRIPTION=
+STATUS=
+VISIBLE=No
+DISK=ANYDISK
+FILENEED=STANDARD
+INCLUDEINBUILD=Yes
+PASSWORD=
+ENCRYPT=No
+COMPRESSIFSEPARATE=No
+UNINSTALLABLE=Yes
+COMMENT=
+DEFSELECTION=Yes
+SELECTED=Yes
+IMAGE=
+TARGETDIRCDROM=
+DISPLAYTEXT=
+HTTPLOCATION=
+FTPLOCATION=
+MISC=
+GUID=95e44d1d-cf78-4d20-9daf-69f66f268984
+_SPLIT_BEFORE=
+_SPLIT_AFTER=
+_DATAASFILES=
+_NO_SPLIT=
+_NO_SPLIT_BEFORE=
+VOLATILE=
+filegroup0=Program MMLogic
+HANDLERONInstalling=
+HANDLERONInstalled=
+HANDLERONUnInstalling=
+HANDLERONUnInstalled=
+
+[Example Files]
+OBJECT=No
+DESCRIPTION=
+STATUS=
+VISIBLE=No
+DISK=ANYDISK
+FILENEED=STANDARD
+INCLUDEINBUILD=Yes
+PASSWORD=
+ENCRYPT=No
+COMPRESSIFSEPARATE=No
+UNINSTALLABLE=Yes
+COMMENT=
+DEFSELECTION=Yes
+SELECTED=Yes
+IMAGE=
+TARGETDIRCDROM=
+DISPLAYTEXT=
+HTTPLOCATION=
+FTPLOCATION=
+MISC=
+GUID=25aa07b8-a7d3-4303-a4f1-d38f8ffebb8f
+_SPLIT_BEFORE=
+_SPLIT_AFTER=
+_DATAASFILES=
+_NO_SPLIT=
+_NO_SPLIT_BEFORE=
+VOLATILE=
+filegroup0=Example Files
+HANDLERONInstalling=
+HANDLERONInstalled=
+HANDLERONUnInstalling=
+HANDLERONUnInstalled=
+
+[TopComponents]
+component0=Program Files
+component1=Help Files
+component2=Example Files
+component3=Text Files
+
+[SetupType]
+setuptype0=Compact
+setuptype1=Typical
+setuptype2=Custom
+
+[SetupTypeItem-Compact]
+Comment=
+Descrip=
+DisplayText=
+item0=Text Files
+item1=Help Files
+item2=Program Files
+item3=Example Files
+
+[SetupTypeItem-Typical]
+Comment=
+Descrip=
+DisplayText=
+item0=Text Files
+item1=Help Files
+item2=Program Files
+item3=Example Files
+
+[SetupTypeItem-Custom]
+Comment=
+Descrip=
+DisplayText=
+item0=Text Files
+item1=Help Files
+item2=Program Files
+item3=Example Files
+

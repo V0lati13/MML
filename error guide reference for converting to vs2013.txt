@@ -1,0 +1,15 @@
+CA2CT(variablenamehere) - LPSTR to LPCTSTR
+L"" - const char [...] to LPCTSTR or LPCTSTR [] or LCPWSTR
+L"" - AfxMessageBox none of the overloads could convert all arguments
+L"" - cannot convert 'const char [...]' to 'const wchar_t *'
+CT2A((LPCTSTR)variablenamehere) - CString to const char *
+LPCTSTR(variablenamehere) - char[...] to LPCTSTR or char * to LPCTSTR
+LPCSTR(variablenamehere) - convert from LPWSTR to LPCSTR or from const wchar_t [...] to LPCSTR or convert from LPCTSTR to LPTSTR
+CA2CT(variablenamehere) - convert from LPCSTR to LPCTSTR or LPSTR to LPCWSTR
+CW2A(variablenamehere) - convert from Wchar[...] to char *
+LPCWSTR(variablenamehere) - convert from LPSTR to LPCWSTR
+LPTSTR(variablenamehere) - convert from char[...] to LPTSTR
+
+
+Specific cases because error isn't directly in the same spot as the fix
+LPCTSTR szFilter (5 lines above) - 'CFileDialog::CFileDialog(const CFileDialog &)' : cannot convert argument 5 from 'char [47]' to 'LPCTSTR'

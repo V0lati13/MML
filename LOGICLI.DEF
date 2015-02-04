@@ -1,0 +1,15 @@
+; Logicli.def : Declares the module parameters for the application.
+
+; Copyright (C) 1993-1994 GGGsoft Corporation
+; All rights reserved.
+;
+
+NAME         LOGICLI
+DESCRIPTION  'Interactive Logic'
+EXETYPE      WINDOWS
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE MULTIPLE
+
+HEAPSIZE     1024   ; initial heap size
+; Stack size is passed as argument to linker's /STACK option
